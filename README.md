@@ -1,6 +1,10 @@
 ## Food Ninja App Overview 🍔
 
 ![Image](https://github.com/user-attachments/assets/5468d74b-b86a-4b47-8d2c-7351f38181d2)
+![Image](<img width="1280" height="1280" alt="WhatsApp Image 2026-06-24 at 12 22 06 AM" src="https://github.com/user-attachments/assets/794f63b4-ede0-43ff-bc4a-97c6b95afa8b" />
+)
+
+
 
 # 🥷 Food Ninja App (تطبيق فود نينجا)
 
