@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 import '../../../../../core/components/custom_primary_button.dart';
-import '../../../../../core/constant/app_colors.dart';
-import '../../../../../core/extension/extension.dart';
+import '../../../../../core/utils/theme/app_colors.dart';
+import '../../../../../core/utils/extension/extension.dart';
 import '../../../../data/models/special_deal_model.dart';
 
 class SpecialDealForOctoberWidget extends StatelessWidget {

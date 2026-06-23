@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../constant/app_images.dart';
-import '../extension/extension.dart';
+import '../utils/constant/app_images.dart';
+import '../utils/extension/extension.dart';
 
 class CustomPlusAndMinus extends StatelessWidget {
   final void Function()? minusOnTap, plusOnTap;

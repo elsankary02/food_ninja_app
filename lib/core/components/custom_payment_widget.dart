@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-import '../extension/extension.dart';
+import '../utils/extension/extension.dart';
 import 'custom_text_form_field.dart';
 
 class PaymentsContainer extends StatelessWidget {

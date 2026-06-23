@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../../../core/constant/app_colors.dart';
-import '../../../../core/extension/extension.dart';
+import '../../../../core/utils/theme/app_colors.dart';
+import '../../../../core/utils/extension/extension.dart';
 
 class NotifiactionCardWidget extends StatelessWidget {
   final String image;

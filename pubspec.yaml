@@ -41,7 +41,7 @@ dependencies:
   top_snackbar_flutter: ^3.3.0
   image_picker: ^1.2.0
   pinput: ^5.0.2
-  font_awesome_flutter: ^10.12.0
+  font_awesome_flutter: ^11.0.0
   carousel_slider: ^5.1.1
   auto_route: ^10.2.0
   riverpod_annotation: ^2.6.1

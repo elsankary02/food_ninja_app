@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-import '../../../../core/extension/extension.dart';
+import '../../../../../core/utils/extension/extension.dart';
 
 class SocialConnectionWidget extends StatelessWidget {
   final String titleSocial;

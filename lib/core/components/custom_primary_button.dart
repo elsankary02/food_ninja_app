@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../extension/extension.dart';
+import '../utils/extension/extension.dart';
 
 class CustomPrimaryButton extends StatelessWidget {
   final String title;

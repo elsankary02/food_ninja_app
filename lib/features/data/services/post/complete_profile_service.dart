@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:dio/dio.dart';
 
-import '../../../../core/constant/app_strings.dart';
+import '../../../../core/utils/constant/app_strings.dart';
 import '../../models/auth/get/get_user_model.dart';
 
 class CompleteProfileService {

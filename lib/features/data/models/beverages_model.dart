@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 
-import '../../../core/constant/app_images.dart';
-import '../../../core/extension/extension.dart';
+import '../../../core/utils/constant/app_images.dart';
+import '../../../core/utils/extension/extension.dart';
 
 class BeveragesModel {
   final String image, title, subTitle, price, description;

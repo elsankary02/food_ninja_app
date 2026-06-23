@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../../core/constant/app_images.dart';
-import '../../../core/extension/extension.dart';
+import '../../../core/utils/constant/app_images.dart';
+import '../../../core/utils/extension/extension.dart';
 
 class OnBoardingModel {
   final String image;

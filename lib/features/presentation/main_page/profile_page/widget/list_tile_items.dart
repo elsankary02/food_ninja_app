@@ -1,23 +1,26 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-import '../../../../../core/extension/extension.dart';
+import '../../../../../core/utils/extension/extension.dart';
 
 class ListTileItems extends StatelessWidget {
-  final IconData? leadingIcon, trailingIcon;
+  final FaIconData? icon;
+  final IconData? trailingIcon;
   final TextAlign? textAlign;
   final String title;
   final Color? iconColor, titleColor, backgroungColor;
   final void Function()? onTap;
   const ListTileItems({
     super.key,
-    this.leadingIcon,
-    this.trailingIcon,
+
     required this.title,
     this.iconColor,
     this.titleColor,
     this.onTap,
     this.textAlign,
     this.backgroungColor,
+    this.icon,
+     this.trailingIcon, required leadingIcon,
   });
 
   @override
@@ -35,7 +38,7 @@ class ListTileItems extends StatelessWidget {
       child: ListTile(
         onTap: onTap,
         contentPadding: EdgeInsets.zero,
-        leading: Icon(leadingIcon, color: iconColor),
+        leading: FaIcon(icon, color: iconColor),
         title: Text(
           title,
           textAlign: textAlign,

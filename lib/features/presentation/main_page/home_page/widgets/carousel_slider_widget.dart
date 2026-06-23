@@ -2,8 +2,8 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../../core/components/custom_snakbar.dart';
-import '../../../../../core/constant/app_colors.dart';
-import '../../../../../core/extension/extension.dart';
+import '../../../../../core/utils/theme/app_colors.dart';
+import '../../../../../core/utils/extension/extension.dart';
 import '../../../../data/models/special_deal_model.dart';
 import 'special_deal_for_october_widget.dart';
 

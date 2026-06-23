@@ -1,7 +1,10 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
+import 'package:food_ninja/features/presentation/auth/otp_page/view/otp_page.dart';
+import 'package:food_ninja/features/presentation/auth/sign_up_page/view/sign_up_page.dart';
+import 'package:food_ninja/features/presentation/auth/sign_up_page/view/signup_process_page.dart';
 
-import '../../features/presentation/login_in_page/view/login_page.dart';
+import '../../features/presentation/auth/login_in_page/view/login_page.dart';
 import '../../features/presentation/main_page/cart_page/view/cart_page.dart';
 import '../../features/presentation/main_page/cart_page/view/confirm_order_page.dart';
 import '../../features/presentation/main_page/cart_page/view/order_location_page.dart';
@@ -20,12 +23,9 @@ import '../../features/presentation/main_page/profile_page/view/personal_details
 import '../../features/presentation/main_page/profile_page/view/profile_page.dart';
 import '../../features/presentation/notifiaction_page/view/notifiaction_page.dart';
 import '../../features/presentation/onboarding_page/onboarding_page.dart';
-import '../../features/presentation/otp_page/view/otp_page.dart';
 import '../../features/presentation/product_details_page/view/product_details_page.dart';
-import '../../features/presentation/sign_up_page/view/sign_up_page.dart';
-import '../../features/presentation/sign_up_page/view/signup_process_page.dart';
 import '../../features/presentation/splash_page/splash_page.dart';
-import '../constant/app_enums.dart';
+import '../utils/constant/app_enums.dart';
 
 part 'router.gr.dart';
 
@@ -35,14 +35,14 @@ final router = AppRouter();
 class AppRouter extends RootStackRouter {
   @override
   List<AutoRoute> get routes => [
-    AutoRoute(page: SplashRoute.page, initial: true),
+    AutoRoute(page: SplashRoute.page),
     AutoRoute(page: SignUpRoute.page),
     AutoRoute(page: FavouriteRoute.page),
     AutoRoute(page: SignupProcessRoute.page),
     AutoRoute(page: OtpRoute.page),
     AutoRoute(page: OrdersRoute.page),
     AutoRoute(page: OnboardingRoute.page),
-    AutoRoute(page: ProfileRoute.page),
+    AutoRoute(page: ProfileRoute.page, initial: true),
     AutoRoute(page: HomeRoute.page),
     AutoRoute(page: ProductDetailsRoute.page),
     AutoRoute(page: GroceriesRoute.page),

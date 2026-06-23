@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../../../core/components/custom_icon_button_pop.dart';
-import '../../../../../core/constant/app_colors.dart';
-import '../../../../../core/constant/app_enums.dart';
-import '../../../../../core/extension/extension.dart';
+import '../../../../../core/utils/theme/app_colors.dart';
+import '../../../../../core/utils/constant/app_enums.dart';
+import '../../../../../core/utils/extension/extension.dart';
 import '../../../../data/providers/localization_provider.dart';
 import '../../../../data/providers/provider.dart';
 

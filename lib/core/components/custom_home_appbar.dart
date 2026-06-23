@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-import '../constant/app_images.dart';
-import '../constant/app_svgs.dart';
-import '../extension/extension.dart';
 import '../router/router.dart';
+import '../utils/constant/app_images.dart';
+import '../utils/constant/app_svgs.dart';
+import '../utils/extension/extension.dart';
 import 'custom_text_form_field.dart';
 
 class CustomHomeAppbar extends StatelessWidget {
@@ -57,7 +57,7 @@ class CustomHomeAppbar extends StatelessWidget {
               fontWeight: FontWeight.w500,
               color: context.kChangeTheme.hintColor,
             ),
-            prefixIcon: Icon(
+            prefixIcon: FaIcon(
               FontAwesomeIcons.magnifyingGlass,
               color: context.kChangeTheme.hintColor,
             ),

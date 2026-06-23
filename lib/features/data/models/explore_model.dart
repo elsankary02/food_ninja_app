@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../../../core/constant/app_colors.dart';
-import '../../../core/constant/app_images.dart';
-import '../../../core/extension/extension.dart';
+import '../../../core/utils/theme/app_colors.dart';
+import '../../../core/utils/constant/app_images.dart';
+import '../../../core/utils/extension/extension.dart';
 
 class ExploreModel {
   final String image, title;

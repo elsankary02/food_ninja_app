@@ -2,10 +2,10 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../core/constant/app_colors.dart';
-import '../../../core/constant/app_enums.dart';
-import '../../../core/constant/app_images.dart';
-import '../../../core/extension/extension.dart';
+import '../../../core/utils/theme/app_colors.dart';
+import '../../../core/utils/constant/app_enums.dart';
+import '../../../core/utils/constant/app_images.dart';
+import '../../../core/utils/extension/extension.dart';
 import '../../../core/router/router.dart';
 import '../../data/providers/auth/get/get_user_provider.dart';
 import '../../data/providers/localization_provider.dart';

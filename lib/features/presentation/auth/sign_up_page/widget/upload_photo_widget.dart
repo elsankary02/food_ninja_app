@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-
-import '../../../../core/extension/extension.dart';
+import 'package:food_ninja/core/utils/extension/extension.dart';
 
 class UploadPhotoWidget extends StatelessWidget {
   final String image;

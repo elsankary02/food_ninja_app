@@ -4,9 +4,9 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../../../core/components/custom_primary_button.dart';
 import '../../../../../core/components/custom_snakbar.dart';
-import '../../../../../core/constant/app_colors.dart';
-import '../../../../../core/constant/app_images.dart';
-import '../../../../../core/extension/extension.dart';
+import '../../../../../core/utils/theme/app_colors.dart';
+import '../../../../../core/utils/constant/app_images.dart';
+import '../../../../../core/utils/extension/extension.dart';
 import '../../../../../core/router/router.dart';
 import '../../../../data/models/beverages_model.dart';
 import '../widget/favourite_details_widget.dart';

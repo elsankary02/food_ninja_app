@@ -3,18 +3,18 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/svg.dart';
 
-import '../../../../core/components/custom_icon_button_pop.dart';
-import '../../../../core/components/custom_primary_button.dart';
-import '../../../../core/components/custom_snakbar.dart';
-import '../../../../core/components/custom_text_form_field.dart';
-import '../../../../core/constant/app_colors.dart';
-import '../../../../core/constant/app_enums.dart';
-import '../../../../core/constant/app_images.dart';
-import '../../../../core/constant/app_svgs.dart';
-import '../../../../core/extension/extension.dart';
-import '../../../../core/router/router.dart';
-import '../../../data/providers/auth/post/resend_otp_provider.dart';
-import '../../main_page/profile_page/widget/language_widget.dart';
+import '../../../../../core/components/custom_icon_button_pop.dart';
+import '../../../../../core/components/custom_primary_button.dart';
+import '../../../../../core/components/custom_snakbar.dart';
+import '../../../../../core/components/custom_text_form_field.dart';
+import '../../../../../core/utils/theme/app_colors.dart';
+import '../../../../../core/utils/constant/app_enums.dart';
+import '../../../../../core/utils/constant/app_images.dart';
+import '../../../../../core/utils/constant/app_svgs.dart';
+import '../../../../../core/utils/extension/extension.dart';
+import '../../../../../core/router/router.dart';
+import '../../../../data/providers/auth/post/resend_otp_provider.dart';
+import '../../../main_page/profile_page/widget/language_widget.dart';
 import '../widget/social_connection_widget.dart';
 
 @RoutePage()

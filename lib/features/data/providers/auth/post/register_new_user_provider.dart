@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../../../core/constant/app_strings.dart';
+import '../../../../../core/utils/constant/app_strings.dart';
 import '../../provider.dart';
 
 abstract class RegisterNewUserState {}

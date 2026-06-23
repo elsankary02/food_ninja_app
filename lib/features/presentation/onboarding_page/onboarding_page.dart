@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/components/custom_primary_button.dart';
-import '../../../core/constant/app_colors.dart';
-import '../../../core/extension/extension.dart';
+import '../../../core/utils/theme/app_colors.dart';
+import '../../../core/utils/extension/extension.dart';
 import '../../../core/router/router.dart';
 import '../../data/models/onboarding_model.dart';
 import '../../data/providers/provider.dart';

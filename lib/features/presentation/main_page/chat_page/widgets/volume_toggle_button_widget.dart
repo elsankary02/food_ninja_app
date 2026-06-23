@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../../../core/components/custom_icon_button_pop.dart';
-import '../../../../../core/extension/extension.dart';
+import '../../../../../core/utils/extension/extension.dart';
 
 class VolumeToggleButtonWidget extends StatelessWidget {
   final void Function()? onPressed;

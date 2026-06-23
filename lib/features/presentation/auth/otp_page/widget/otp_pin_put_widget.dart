@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:food_ninja/core/utils/extension/extension.dart';
+import 'package:food_ninja/core/utils/theme/app_colors.dart';
 import 'package:pinput/pinput.dart';
-
-import '../../../../core/constant/app_colors.dart';
-import '../../../../core/extension/extension.dart';
 
 class OtpPinPutWidget extends StatelessWidget {
   final TextEditingController? pinputController;

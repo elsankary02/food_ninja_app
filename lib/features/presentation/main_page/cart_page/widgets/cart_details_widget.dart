@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../../../../../core/components/custom_icon_button_pop.dart';
 import '../../../../../core/components/custom_plus_and_minus.dart';
-import '../../../../../core/constant/app_colors.dart';
-import '../../../../../core/extension/extension.dart';
+import '../../../../../core/utils/theme/app_colors.dart';
+import '../../../../../core/utils/extension/extension.dart';
 
 class CartDetailsWidget extends StatelessWidget {
   final String image, title, subtitle, price;

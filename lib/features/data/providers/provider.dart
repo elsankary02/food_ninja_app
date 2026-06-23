@@ -4,8 +4,8 @@ import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../../../../env.dart';
-import '../../../core/constant/app_strings.dart';
+import '../../../app/env.dart';
+import '../../../core/utils/constant/app_strings.dart';
 import '../services/delete/delete_account_service.dart';
 import '../services/get/get_user_service.dart';
 import '../services/post/complete_profile_service.dart';

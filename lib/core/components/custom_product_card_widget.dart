@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../constant/app_colors.dart';
-import '../extension/extension.dart';
+import '../utils/theme/app_colors.dart';
+import '../utils/extension/extension.dart';
 import 'custom_icon_add.dart';
 
 class CustomProductCardWidget extends StatelessWidget {

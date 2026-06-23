@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import '../../../../../core/components/custom_home_appbar.dart';
 import '../../../../../core/components/custom_product_card_widget.dart';
 import '../../../../../core/components/custom_snakbar.dart';
-import '../../../../../core/constant/app_images.dart';
-import '../../../../../core/extension/extension.dart';
+import '../../../../../core/utils/constant/app_images.dart';
+import '../../../../../core/utils/extension/extension.dart';
 import '../../../../../core/router/router.dart';
 import '../../../../data/models/groceries_model.dart';
 
